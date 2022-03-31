@@ -42,6 +42,7 @@ You need to have an AWS account set up before deployment. You can get a free tie
 4) Create a Elastic Beanstalk application and add existing project which is the zip folder from local.
 5) EBS will build and deploy automatically and maintain versions for each new deployment.
 6) You can install AWS Cli and perform the deployments steps through command line as well. Here's the link to the documentation: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-flask.html
+7) To execute on local machine you need to change the application.py to app.py and everywhere inside the file replace 'application' with 'app'. Also, inside the app.py file add host and port details.
 
 <h2>Assumptions:</h2>
 
